@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "skillslots",
+  "version": "${version}",
+  "name": "Skill Slots",
+  "description": "Adds player skill slots for item-based skills",
+  "authors": [
+    "Snownee"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/skill-slots-fabric",
+    "sources": "https://github.com/Snownee/SkillSlots",
+    "issues": "https://github.com/Snownee/SkillSlots/issues",
+    "repo": "https://github.com/MilesGlitch/SkillSlots"
+  },
+  "license": "ARR",
+  "entrypoints": {
+    "main": [
+      "snownee.skillslots.util.CommonProxy"
+    ],
+    "client": [
+      "snownee.skillslots.util.ClientProxy"
+    ]
+  },
+  "mixins": [
+    "skillslots.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

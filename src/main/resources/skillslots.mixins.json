@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "snownee.skillslots.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "refmap": "skillslots.refmap.json",
+  "mixins": [
+    "EntityMixin",
+    "PlayerMixin",
+    "ServerLevelMixin",
+    "fabric.LivingEntityMixin",
+    "fabric.PlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8",
+  "client": [
+    "fabric.GuiMixin"
+  ]
+}
