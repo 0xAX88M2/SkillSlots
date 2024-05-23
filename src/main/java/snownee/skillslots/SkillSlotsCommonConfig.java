@@ -18,7 +18,7 @@ public final class SkillSlotsCommonConfig {
 	@Path("slots.maxSlots")
 	@Range(min = 1, max = 4)
 	@LevelRestart
-	public static int maxSlots = 3;
+	public static int maxSlots = 4;
 	@Path("slots.beginnerSlots")
 	@Range(min = 0, max = 4)
 	@LevelRestart
